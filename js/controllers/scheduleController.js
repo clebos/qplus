@@ -698,7 +698,7 @@ myApp.controller('IndividualAppointmentController', ['$scope','$timeout', 'Appoi
                                     console.log('appointment added');
                                 }, function (err) {
                                      navigator.notification.alert(
-                                        'An error occured while adding your appointments',  // message
+                                        'An error occurred while adding your appointments',  // message
                                         alertDismissed,         // callback
                                         'Error',            // title
                                         'OK'                  // buttonName
@@ -753,7 +753,7 @@ myApp.controller('IndividualAppointmentController', ['$scope','$timeout', 'Appoi
                             appCalendarAdded++;
                         }, function (err) {
                              navigator.notification.alert(
-                                'An error occured while adding your appointments',  // message
+                                'An error occurred while adding your appointments',  // message
                                 alertDismissed,         // callback
                                 'Error',            // title
                                 'OK'                  // buttonName
@@ -764,7 +764,7 @@ myApp.controller('IndividualAppointmentController', ['$scope','$timeout', 'Appoi
                      }
                   }, function (err) {
                         navigator.notification.alert(
-                                'An error occured while adding your appointments',  // message
+                                'An error occurred while adding your appointments',  // message
                                 alertDismissed,         // callback
                                 'Error',            // title
                                 'OK'                  // buttonName

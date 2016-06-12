@@ -82,7 +82,7 @@ NOTE: Once in the Home page, the routing is dealt by onsen functions. Link to ex
 /**
 *@ngdoc object
 *@name ProjectDependencies.onsen
-*@description Dependency used to create html/AngularJS elements that provide a native like feeling to the app. User accross all the views.
+*@description Dependency used to create html/AngularJS elements that provide a native like feeling to the app. User across all the views.
 * Link to external reference {@link https://github.com/OnsenUI/OnsenUI}.
 */
 
@@ -95,7 +95,7 @@ NOTE: Once in the Home page, the routing is dealt by onsen functions. Link to ex
 /**
 *@ngdoc object
 *@name ProjectDependencies.uibootstrap
-*@description Dependency used accross all views. Provides a way to interact with bootstrap elements using the Angular Framework.
+*@description Dependency used across all views. Provides a way to interact with bootstrap elements using the Angular Framework.
 *Link to external reference {@link https://github.com/angular-ui/bootstrap}.
 */
 

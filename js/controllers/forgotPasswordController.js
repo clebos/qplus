@@ -30,7 +30,7 @@ myApp.controller('ForgotPasswordController', ['$scope', '$state','$timeout', fun
               console.log("Password reset email sent successfully!");
               $timeout(function(){
                 $scope.alert.type="success";
-                $scope.alert.content="Password has been reset sucessfully, check your email for your temporary password!";
+                $scope.alert.content="Password has been reset successfully, check your email for your temporary password!";
               });
             }
           });

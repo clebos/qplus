@@ -91,7 +91,7 @@ myApp.service('Appointments', ['$q', 'RequestToServer','$cordovaCalendar','UserA
               }, function (err) {
                   console.log(err);
                    navigator.notification.alert(
-                      'An error occured while adding your appointments',  // message
+                      'An error occurred while adding your appointments',  // message
                       function(error){
                         console.log(error);
                       },         // callback

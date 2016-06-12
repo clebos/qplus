@@ -4,7 +4,7 @@ var myApp=angular.module('MUHCApp');
 *@name MUHCApp.services:UserMessages
 *@requires $filter
 *@requires MUHCApp.service:UserAuthorizationInfo
-*@description Service deals with patient/doctor messaging portal, parses Firebase object into the appropiate format
+*@description Service deals with patient/doctor messaging portal, parses Firebase object into the appropriate format
 *             and defines methods for sending messages back to Firebase.
 **/
 myApp.service('Messages', ['$filter', 'UserAuthorizationInfo', 'Patient', 'Doctors','$rootScope', function($filter, UserAuthorizationInfo, Patient,Doctors,$rootScope){
